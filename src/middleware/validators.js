@@ -17,7 +17,7 @@ exports.validateResult = [
 	query('data_all')
 		.isString()
 		.isLength({ min: 108, max: 108 })
-		.matches(/^[1-6]+$/),
+		.matches(/^[1-9]+$/),
 	validateInputs,
 ]
 
