@@ -13,7 +13,7 @@ const {
 
 axios.defaults.headers.common['X-Proxy-Request'] = 'true'
 
-const baseURL = 'https://loving-germain.82-223-101-75.plesk.page/api'
+const baseURL = 'https://culturalfit.es/api'
 
 const profileController = async (req, res, next) => {
 	const response = await axios.get(`${baseURL}/tb_perfil/${req.params.token}`)
